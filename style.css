@@ -1,0 +1,68 @@
+body{
+    padding:0;
+    margin:0;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.content{
+    width:600px;
+    text-align: left;
+    height: 60%;
+    padding-top: 10%;
+}
+
+.content .demostration{
+    margin-top: 2em;
+    font-size: 28px;
+    color: #aaa;
+}
+
+.text-gray{
+    color: #ccc;
+}
+
+.text-red{
+    color: #a66;
+}
+
+.line{
+    width: 120px;
+    height: 24px;
+}
+
+
+
+@keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+.blink{
+    animation: fade 600ms infinite;
+    -webkit-animation: fade 600ms infinite;
+}
